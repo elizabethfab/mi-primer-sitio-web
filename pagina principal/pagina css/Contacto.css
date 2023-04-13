@@ -1,0 +1,31 @@
+*{background-color: pink;
+margin: 0%;}
+h1{text-align: center;
+background: grey;
+padding-top: 19PX;
+padding-bottom: 19PX;
+font-size: 40px;}
+
+ .formulario {
+    width: 40%;
+    max-width: 600px;
+    margin:auto;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:stretch;
+    border: 2px solid;
+font-size: 20px;
+;}
+
+.ter{font-size: 15px;
+;}
+.li{text-align: left;}
+
+.boton{font-size: 20px;}
+.boton:hover{background:beige;}
+.cuadrado{padding-top: 34px;}
