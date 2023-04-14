@@ -1,15 +1,16 @@
 * {
-  background: pink;
+  background: rgb(241, 209, 214);
   padding: 0%;
   margin: 0%;
 }
 
-.titulo {
+.titulo,.titulo2 {
   width: 100%;
   font-size: 70px;
   text-align: center;
   background: grey;
   margin: 0px;
+  color: aliceblue;
 }
 
 .conteiner {
@@ -19,15 +20,16 @@
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 40px;
+  gap: 40px;
 }
 
-.caja img {
+.caja img,.cajaa img {
   width: 480px;
   height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; 
 }
-.caja {
-  margin: 5px;
-}
+
 .caja p {
   text-align: center;
   font-weight: bold;
@@ -36,13 +38,6 @@
 
 /*catalogo2*/
 
-.titulo2 {
-  width: 100%;
-  font-size: 70px;
-  text-align: center;
-  background: grey;
-  margin: 0px;
-}
 
 .conteiner2 {
   width: 100%;
@@ -51,18 +46,19 @@
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 50px;
+  gap: 40px;
+ 
 }
 
-.cajaa img {
-  width: 480px;
-  height: 200px;
-}
-.cajaa {
-  margin: 5px;
-}
-
-.b p {
+.b,p {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+  
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
+p{
+  background-color: aliceblue;
+}
+
